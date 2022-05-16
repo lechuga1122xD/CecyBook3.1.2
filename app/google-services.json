@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "419749643220",
+    "project_id": "cecybook-9143b",
+    "storage_bucket": "cecybook-9143b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419749643220:android:8f81a9d530d6db5bd6cc41",
+        "android_client_info": {
+          "package_name": "com.example.cecybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419749643220-nobefspt2r07dv07qhen5lffhfvjkggj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbKczkbnDhi3DfWm0oR72CEFeCd1Nn468"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419749643220-nobefspt2r07dv07qhen5lffhfvjkggj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

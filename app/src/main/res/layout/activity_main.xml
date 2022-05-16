@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splashscreen" />
+
+    <TextView
+        android:id="@+id/cecytevTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/amaranth"
+        android:text="CECYTEV N17"
+        android:textColor="@color/verdeclaro"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/deTextView"
+        android:layout_width="31dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="De"
+        android:textColor="@color/naranjaclaro"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/cecytevTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoimageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".LoginActivity"
+    android:background="@drawable/fondoinicio">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/splashscreen"
+        android:transitionName="logoImageTrans" />
+
+    <TextView
+        android:id="@+id/bienvenidosCecyTev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Bienvenido a CecyBook!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:transitionName="textTrans" />
+
+    <TextView
+        android:id="@+id/continuarcecy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:text="inicia secion para continuar"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="vertical" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="Email"
+        android:id="@+id/usuarioTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ContraseñaTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="Contraseña"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/olvidasteContra"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/amaranth"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Olvidate tu contraseña?"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/IniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="70dp"/>
+
+    <TextView
+        android:id="@+id/nuevoUsuario"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amaranth"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:textStyle="bold"
+        android:text="Eres Nuevo? Registrate!"
+        />
+
+
+
+
+</LinearLayout>
